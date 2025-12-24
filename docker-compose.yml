@@ -1,0 +1,84 @@
+version: "3.8"
+
+services:
+
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+
+  airflow-webserver:
+    image: apache/airflow:2.7.3
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./spark/jobs:/opt/spark/jobs
+      - C:/Users/Shu-han/bigdata-stack/data:/opt/airflow/data
+    ports:
+      - "8080:8080"
+    command: ["webserver"]
+
+  airflow-scheduler:
+    image: apache/airflow:2.7.3
+    depends_on:
+      - airflow-webserver
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./spark/jobs:/opt/spark/jobs
+      - C:/Users/Shu-han/bigdata-stack/data:/opt/airflow/data  # <-- corrigé ici
+    command: ["scheduler"]
+
+  spark-master:
+    build:
+      context: ./spark
+    command:
+      ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master"]
+    ports:
+      - "7077:7077"
+      - "8081:8080"
+    volumes:
+      - ./spark/jobs:/opt/spark/jobs
+
+  spark-worker:
+    build:
+      context: ./spark
+    command:
+      [
+        "/opt/spark/bin/spark-class",
+        "org.apache.spark.deploy.worker.Worker",
+        "spark://spark-master:7077"
+      ]
+    depends_on:
+      - spark-master
+    volumes:
+      - ./spark/jobs:/opt/spark/jobs
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.1
+    depends_on:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"

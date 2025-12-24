@@ -1,0 +1,2421 @@
+[2025-12-24T13:13:14.116+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T13:13:14.117+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T13:13:14.118+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T13:13:14.118+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T13:13:14.155+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2025-12-24T13:13:14.330+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/spark_to_elastic_dag.py    166  0.07s             0           0
+================================================================================
+[2025-12-24T13:13:44.561+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    172  0.00s             0           1  0.15s           2025-12-24T13:13:14
+================================================================================
+[2025-12-24T13:14:14.819+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    177  0.00s             0           1  0.07s           2025-12-24T13:13:44
+================================================================================
+[2025-12-24T13:14:45.109+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    182  0.00s             0           1  0.07s           2025-12-24T13:14:14
+================================================================================
+[2025-12-24T13:15:15.371+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    187  0.01s             0           1  0.06s           2025-12-24T13:14:45
+================================================================================
+[2025-12-24T13:15:45.608+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    192  0.00s             0           1  0.07s           2025-12-24T13:15:15
+================================================================================
+[2025-12-24T13:16:15.898+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    197  0.01s             0           1  0.06s           2025-12-24T13:15:45
+================================================================================
+[2025-12-24T13:16:46.171+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    202  0.00s             0           1  0.06s           2025-12-24T13:16:15
+================================================================================
+[2025-12-24T13:17:16.429+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    207  0.00s             0           1  0.07s           2025-12-24T13:16:46
+================================================================================
+[2025-12-24T13:17:46.728+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    212  0.01s             0           1  0.08s           2025-12-24T13:17:16
+================================================================================
+[2025-12-24T13:18:14.999+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T13:18:15.066+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T13:18:17.140+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    222  0.01s             0           1  0.08s           2025-12-24T13:17:46
+/opt/airflow/dags/hello_dag.py                                      1           0  0.39s           2025-12-24T13:18:15
+================================================================================
+[2025-12-24T13:18:47.472+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    232  0.01s             0           1  0.07s           2025-12-24T13:18:17
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T13:18:46
+================================================================================
+[2025-12-24T13:19:05.897+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T14:18:54.267+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T14:18:54.268+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T14:18:54.268+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T14:18:54.269+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T14:18:54.362+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T14:18:54.498+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py               168  0.07s             0           0
+/opt/airflow/dags/spark_to_elastic_dag.py    171  0.06s             0           0
+================================================================================
+[2025-12-24T14:19:24.813+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    178  0.00s             0           1  0.09s           2025-12-24T14:18:54
+/opt/airflow/dags/hello_dag.py                                      1           0  0.44s           2025-12-24T14:18:54
+================================================================================
+[2025-12-24T14:19:55.264+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    191  0.01s             0           1  0.12s           2025-12-24T14:19:24
+/opt/airflow/dags/hello_dag.py               188  0.02s             1           0  0.23s           2025-12-24T14:19:25
+================================================================================
+[2025-12-24T14:20:08.686+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T15:02:42.368+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T15:02:42.375+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T15:02:42.384+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T15:02:42.389+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:02:42.433+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T15:02:42.601+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py               167  0.10s             0           0
+/opt/airflow/dags/spark_to_elastic_dag.py    170  0.08s             0           0
+================================================================================
+[2025-12-24T15:03:12.933+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    180  0.01s             0           1  0.13s           2025-12-24T15:02:42
+/opt/airflow/dags/hello_dag.py               177  0.02s             1           0  0.26s           2025-12-24T15:02:42
+================================================================================
+[2025-12-24T15:03:43.364+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    190  0.01s             0           1  0.07s           2025-12-24T15:03:12
+/opt/airflow/dags/hello_dag.py               187  0.02s             1           0  0.12s           2025-12-24T15:03:13
+================================================================================
+[2025-12-24T15:04:13.732+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    200  0.00s             0           1  0.08s           2025-12-24T15:03:43
+/opt/airflow/dags/hello_dag.py               197  0.02s             1           0  0.15s           2025-12-24T15:03:43
+================================================================================
+[2025-12-24T15:04:44.156+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    210  0.00s             0           1  0.06s           2025-12-24T15:04:13
+/opt/airflow/dags/hello_dag.py               207  0.02s             1           0  0.12s           2025-12-24T15:04:13
+================================================================================
+[2025-12-24T15:05:06.905+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T15:07:30.296+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T15:07:30.307+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T15:07:30.307+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T15:07:30.308+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:07:30.379+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T15:07:30.554+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py               166  0.11s             0           0
+/opt/airflow/dags/spark_to_elastic_dag.py    169  0.09s             0           0
+================================================================================
+[2025-12-24T15:08:00.951+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    179  0.00s             0           1  0.17s           2025-12-24T15:07:30
+/opt/airflow/dags/hello_dag.py               176  0.02s             1           0  0.25s           2025-12-24T15:07:30
+================================================================================
+[2025-12-24T15:08:31.409+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    189  0.00s             0           1  0.08s           2025-12-24T15:08:01
+/opt/airflow/dags/hello_dag.py               186  0.02s             1           0  0.16s           2025-12-24T15:08:01
+================================================================================
+[2025-12-24T15:09:01.820+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    199  0.00s             0           1  0.07s           2025-12-24T15:08:31
+/opt/airflow/dags/hello_dag.py               196  0.02s             1           0  0.13s           2025-12-24T15:08:31
+================================================================================
+[2025-12-24T15:09:32.247+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    209  0.00s             0           1  0.07s           2025-12-24T15:09:01
+/opt/airflow/dags/hello_dag.py               206  0.01s             1           0  0.11s           2025-12-24T15:09:01
+================================================================================
+[2025-12-24T15:10:02.590+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    219  0.00s             0           1  0.06s           2025-12-24T15:09:32
+/opt/airflow/dags/hello_dag.py               216  0.02s             1           0  0.11s           2025-12-24T15:09:32
+================================================================================
+[2025-12-24T15:10:33.042+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    229  0.00s             0           1  0.10s           2025-12-24T15:10:02
+/opt/airflow/dags/hello_dag.py               226  0.02s             1           0  0.15s           2025-12-24T15:10:02
+================================================================================
+[2025-12-24T15:11:03.405+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    239  0.01s             0           1  0.06s           2025-12-24T15:10:33
+/opt/airflow/dags/hello_dag.py               236  0.03s             1           0  0.11s           2025-12-24T15:10:33
+================================================================================
+[2025-12-24T15:11:33.850+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    252  0.01s             0           1  0.11s           2025-12-24T15:11:03
+/opt/airflow/dags/hello_dag.py               249  0.05s             1           0  0.22s           2025-12-24T15:11:03
+================================================================================
+[2025-12-24T15:12:04.241+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    262  0.01s             0           1  0.15s           2025-12-24T15:11:33
+/opt/airflow/dags/hello_dag.py               259  0.02s             1           0  0.30s           2025-12-24T15:11:34
+================================================================================
+[2025-12-24T15:12:30.564+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:12:30.595+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T15:12:34.672+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    272  0.00s             0           1  0.07s           2025-12-24T15:12:04
+/opt/airflow/dags/hello_dag.py               269  0.01s             1           0  0.12s           2025-12-24T15:12:04
+================================================================================
+[2025-12-24T15:13:05.093+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    282  0.01s             0           1  0.06s           2025-12-24T15:12:34
+/opt/airflow/dags/hello_dag.py               279  0.02s             1           0  0.16s           2025-12-24T15:12:34
+================================================================================
+[2025-12-24T15:13:35.506+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    292  0.00s             0           1  0.07s           2025-12-24T15:13:05
+/opt/airflow/dags/hello_dag.py               289  0.01s             1           0  0.12s           2025-12-24T15:13:05
+================================================================================
+[2025-12-24T15:14:05.890+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    302  0.00s             0           1  0.06s           2025-12-24T15:13:35
+/opt/airflow/dags/hello_dag.py               299  0.02s             1           0  0.10s           2025-12-24T15:13:35
+================================================================================
+[2025-12-24T15:14:36.256+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    312  0.00s             0           1  0.07s           2025-12-24T15:14:05
+/opt/airflow/dags/hello_dag.py               309  0.02s             1           0  0.12s           2025-12-24T15:14:05
+================================================================================
+[2025-12-24T15:14:41.397+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T15:14:50.064+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T15:14:50.065+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T15:14:50.066+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T15:14:50.066+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:14:50.103+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T15:14:50.221+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py               166  0.07s             0           0
+/opt/airflow/dags/spark_to_elastic_dag.py    170  0.05s             0           0
+================================================================================
+[2025-12-24T15:15:16.636+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T15:15:26.017+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T15:15:26.018+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T15:15:26.018+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T15:15:26.019+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:15:26.051+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T15:15:26.202+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py               167  0.10s             0           0
+/opt/airflow/dags/spark_to_elastic_dag.py    170  0.08s             0           0
+================================================================================
+[2025-12-24T15:15:56.566+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    180  0.01s             0           1  0.13s           2025-12-24T15:15:26
+/opt/airflow/dags/hello_dag.py               177  0.02s             1           0  0.20s           2025-12-24T15:15:26
+================================================================================
+[2025-12-24T15:16:26.966+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    190  0.01s             0           1  0.07s           2025-12-24T15:15:56
+/opt/airflow/dags/hello_dag.py               187  0.02s             1           0  0.12s           2025-12-24T15:15:56
+================================================================================
+[2025-12-24T15:16:57.398+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    200  0.01s             0           1  0.08s           2025-12-24T15:16:27
+/opt/airflow/dags/hello_dag.py               197  0.02s             1           0  0.11s           2025-12-24T15:16:27
+================================================================================
+[2025-12-24T15:17:27.825+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    210  0.01s             0           1  0.07s           2025-12-24T15:16:57
+/opt/airflow/dags/hello_dag.py               207  0.02s             1           0  0.13s           2025-12-24T15:16:57
+================================================================================
+[2025-12-24T15:17:58.263+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    220  0.01s             0           1  0.08s           2025-12-24T15:17:27
+/opt/airflow/dags/hello_dag.py               217  0.02s             1           0  0.24s           2025-12-24T15:17:28
+================================================================================
+[2025-12-24T15:18:28.682+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    230  0.01s             0           1  0.09s           2025-12-24T15:17:58
+/opt/airflow/dags/hello_dag.py               227  0.02s             1           0  0.13s           2025-12-24T15:17:58
+================================================================================
+[2025-12-24T15:18:59.074+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    240  0.01s             0           1  0.06s           2025-12-24T15:18:28
+/opt/airflow/dags/hello_dag.py               237  0.02s             1           0  0.11s           2025-12-24T15:18:28
+================================================================================
+[2025-12-24T15:19:29.466+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    250  0.00s             0           1  0.09s           2025-12-24T15:18:59
+/opt/airflow/dags/hello_dag.py               247  0.02s             1           0  0.13s           2025-12-24T15:18:59
+================================================================================
+[2025-12-24T15:19:59.932+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    260  0.01s             0           1  0.08s           2025-12-24T15:19:29
+/opt/airflow/dags/hello_dag.py               257  0.02s             1           0  0.13s           2025-12-24T15:19:29
+================================================================================
+[2025-12-24T15:20:26.285+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:20:26.323+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T15:20:30.408+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    270  0.01s             0           1  0.06s           2025-12-24T15:19:59
+/opt/airflow/dags/hello_dag.py               267  0.02s             1           0  0.13s           2025-12-24T15:20:00
+================================================================================
+[2025-12-24T15:21:00.777+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    280  0.01s             0           1  0.08s           2025-12-24T15:20:30
+/opt/airflow/dags/hello_dag.py               277  0.02s             1           0  0.13s           2025-12-24T15:20:30
+================================================================================
+[2025-12-24T15:21:31.182+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    290  0.01s             0           1  0.08s           2025-12-24T15:21:00
+/opt/airflow/dags/hello_dag.py               287  0.02s             1           0  0.13s           2025-12-24T15:21:00
+================================================================================
+[2025-12-24T15:22:01.623+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    300  0.01s             0           1  0.09s           2025-12-24T15:21:31
+/opt/airflow/dags/hello_dag.py               297  0.02s             1           0  0.13s           2025-12-24T15:21:31
+================================================================================
+[2025-12-24T15:22:32.068+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    310  0.01s             0           1  0.08s           2025-12-24T15:22:01
+/opt/airflow/dags/hello_dag.py               307  0.02s             1           0  0.13s           2025-12-24T15:22:01
+================================================================================
+[2025-12-24T15:23:02.512+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    320  0.01s             0           1  0.07s           2025-12-24T15:22:32
+/opt/airflow/dags/hello_dag.py               317  0.02s             1           0  0.12s           2025-12-24T15:22:32
+================================================================================
+[2025-12-24T15:23:32.937+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    330  0.00s             0           1  0.07s           2025-12-24T15:23:02
+/opt/airflow/dags/hello_dag.py               327  0.02s             1           0  0.11s           2025-12-24T15:23:02
+================================================================================
+[2025-12-24T15:24:03.345+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    340  0.01s             0           1  0.07s           2025-12-24T15:23:32
+/opt/airflow/dags/hello_dag.py               337  0.02s             1           0  0.11s           2025-12-24T15:23:33
+================================================================================
+[2025-12-24T15:24:33.720+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    350  0.01s             0           1  0.06s           2025-12-24T15:24:03
+/opt/airflow/dags/hello_dag.py               347  0.02s             1           0  0.11s           2025-12-24T15:24:03
+================================================================================
+[2025-12-24T15:25:04.154+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py    360  0.01s             0           1  0.07s           2025-12-24T15:24:33
+/opt/airflow/dags/hello_dag.py               357  0.02s             1           0  0.12s           2025-12-24T15:24:33
+================================================================================
+[2025-12-24T15:25:26.426+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:25:26.463+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T15:25:34.658+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:25:26
+/opt/airflow/dags/spark_to_elastic_dag.py    375  0.00s             0           1  0.08s           2025-12-24T15:25:04
+/opt/airflow/dags/hello_dag.py               372  0.02s             1           0  0.12s           2025-12-24T15:25:04
+================================================================================
+[2025-12-24T15:26:05.179+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:25:57
+/opt/airflow/dags/spark_to_elastic_dag.py    390  0.01s             0           1  0.06s           2025-12-24T15:25:34
+/opt/airflow/dags/hello_dag.py               387  0.02s             1           0  0.12s           2025-12-24T15:25:34
+================================================================================
+[2025-12-24T15:26:35.738+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:26:27
+/opt/airflow/dags/spark_to_elastic_dag.py    405  0.01s             0           1  0.11s           2025-12-24T15:26:05
+/opt/airflow/dags/hello_dag.py               402  0.02s             1           0  0.17s           2025-12-24T15:26:05
+================================================================================
+[2025-12-24T15:27:06.235+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:26:58
+/opt/airflow/dags/spark_to_elastic_dag.py    420  0.01s             0           1  0.07s           2025-12-24T15:26:35
+/opt/airflow/dags/hello_dag.py               417  0.02s             1           0  0.12s           2025-12-24T15:26:35
+================================================================================
+[2025-12-24T15:27:36.743+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:27:33
+/opt/airflow/dags/spark_to_elastic_dag.py    461  0.01s             0           1  0.06s           2025-12-24T15:27:06
+/opt/airflow/dags/hello_dag.py               458  0.02s             1           0  0.11s           2025-12-24T15:27:06
+================================================================================
+[2025-12-24T15:28:07.251+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:28:04
+/opt/airflow/dags/spark_to_elastic_dag.py    476  0.01s             0           1  0.06s           2025-12-24T15:27:36
+/opt/airflow/dags/hello_dag.py               473  0.02s             1           0  0.10s           2025-12-24T15:27:36
+================================================================================
+[2025-12-24T15:28:37.719+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:28:34
+/opt/airflow/dags/spark_to_elastic_dag.py    491  0.01s             0           1  0.06s           2025-12-24T15:28:07
+/opt/airflow/dags/hello_dag.py               488  0.02s             1           0  0.12s           2025-12-24T15:28:07
+================================================================================
+[2025-12-24T15:29:08.292+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:29:05
+/opt/airflow/dags/spark_to_elastic_dag.py    506  0.00s             0           1  0.07s           2025-12-24T15:28:37
+/opt/airflow/dags/hello_dag.py               503  0.02s             1           0  0.12s           2025-12-24T15:28:37
+================================================================================
+[2025-12-24T15:29:38.808+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.06s           2025-12-24T15:29:35
+/opt/airflow/dags/spark_to_elastic_dag.py    521  0.01s             0           1  0.07s           2025-12-24T15:29:08
+/opt/airflow/dags/hello_dag.py               518  0.02s             1           0  0.12s           2025-12-24T15:29:08
+================================================================================
+[2025-12-24T15:30:09.298+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:30:06
+/opt/airflow/dags/spark_to_elastic_dag.py    536  0.01s             0           1  0.08s           2025-12-24T15:29:38
+/opt/airflow/dags/hello_dag.py               533  0.02s             1           0  0.13s           2025-12-24T15:29:38
+================================================================================
+[2025-12-24T15:30:26.531+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:30:26.577+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T15:30:39.790+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:30:36
+/opt/airflow/dags/spark_to_elastic_dag.py    551  0.01s             0           1  0.07s           2025-12-24T15:30:09
+/opt/airflow/dags/hello_dag.py               548  0.02s             1           0  0.10s           2025-12-24T15:30:09
+================================================================================
+[2025-12-24T15:31:10.260+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:31:07
+/opt/airflow/dags/spark_to_elastic_dag.py    566  0.01s             0           1  0.07s           2025-12-24T15:30:39
+/opt/airflow/dags/hello_dag.py               563  0.02s             1           0  0.12s           2025-12-24T15:30:39
+================================================================================
+[2025-12-24T15:31:40.664+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.09s           2025-12-24T15:31:37
+/opt/airflow/dags/spark_to_elastic_dag.py    581  0.01s             0           1  0.07s           2025-12-24T15:31:10
+/opt/airflow/dags/hello_dag.py               578  0.02s             1           0  0.13s           2025-12-24T15:31:10
+================================================================================
+[2025-12-24T15:32:11.126+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:32:08
+/opt/airflow/dags/spark_to_elastic_dag.py    596  0.01s             0           1  0.09s           2025-12-24T15:31:40
+/opt/airflow/dags/hello_dag.py               593  0.02s             1           0  0.15s           2025-12-24T15:31:40
+================================================================================
+[2025-12-24T15:32:41.550+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.10s           2025-12-24T15:32:38
+/opt/airflow/dags/spark_to_elastic_dag.py    611  0.01s             0           1  0.08s           2025-12-24T15:32:11
+/opt/airflow/dags/hello_dag.py               608  0.02s             1           0  0.13s           2025-12-24T15:32:11
+================================================================================
+[2025-12-24T15:33:12.185+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.13s           2025-12-24T15:33:09
+/opt/airflow/dags/spark_to_elastic_dag.py    626  0.01s             0           1  0.10s           2025-12-24T15:32:41
+/opt/airflow/dags/hello_dag.py               623  0.05s             1           0  0.22s           2025-12-24T15:32:41
+================================================================================
+[2025-12-24T15:33:42.897+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.14s           2025-12-24T15:33:39
+/opt/airflow/dags/spark_to_elastic_dag.py    641  0.01s             0           1  0.12s           2025-12-24T15:33:12
+/opt/airflow/dags/hello_dag.py               638  0.02s             1           0  0.20s           2025-12-24T15:33:12
+================================================================================
+[2025-12-24T15:34:13.307+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.06s           2025-12-24T15:34:10
+/opt/airflow/dags/spark_to_elastic_dag.py    656  0.01s             0           1  0.08s           2025-12-24T15:33:42
+/opt/airflow/dags/hello_dag.py               653  0.02s             1           0  0.13s           2025-12-24T15:33:43
+================================================================================
+[2025-12-24T15:34:43.834+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.09s           2025-12-24T15:34:40
+/opt/airflow/dags/spark_to_elastic_dag.py    671  0.02s             0           1  0.14s           2025-12-24T15:34:13
+/opt/airflow/dags/hello_dag.py               668  0.06s             1           0  0.15s           2025-12-24T15:34:13
+================================================================================
+[2025-12-24T15:35:14.435+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.10s           2025-12-24T15:35:11
+/opt/airflow/dags/spark_to_elastic_dag.py    686  0.01s             0           1  0.19s           2025-12-24T15:34:43
+/opt/airflow/dags/hello_dag.py               683  0.02s             1           0  0.33s           2025-12-24T15:34:44
+================================================================================
+[2025-12-24T15:35:26.628+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:35:26.679+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T15:35:44.934+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:35:41
+/opt/airflow/dags/spark_to_elastic_dag.py    701  0.01s             0           1  0.09s           2025-12-24T15:35:14
+/opt/airflow/dags/hello_dag.py               698  0.02s             1           0  0.18s           2025-12-24T15:35:14
+================================================================================
+[2025-12-24T15:36:15.441+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.09s           2025-12-24T15:36:12
+/opt/airflow/dags/spark_to_elastic_dag.py    716  0.00s             0           1  0.07s           2025-12-24T15:35:44
+/opt/airflow/dags/hello_dag.py               713  0.02s             1           0  0.13s           2025-12-24T15:35:45
+================================================================================
+[2025-12-24T15:36:45.921+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:36:42
+/opt/airflow/dags/spark_to_elastic_dag.py    731  0.01s             0           1  0.07s           2025-12-24T15:36:15
+/opt/airflow/dags/hello_dag.py               728  0.02s             1           0  0.12s           2025-12-24T15:36:15
+================================================================================
+[2025-12-24T15:37:16.340+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:37:13
+/opt/airflow/dags/spark_to_elastic_dag.py    746  0.01s             0           1  0.07s           2025-12-24T15:36:45
+/opt/airflow/dags/hello_dag.py               743  0.02s             1           0  0.12s           2025-12-24T15:36:46
+================================================================================
+[2025-12-24T15:37:46.884+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:37:43
+/opt/airflow/dags/spark_to_elastic_dag.py    761  0.01s             0           1  0.12s           2025-12-24T15:37:16
+/opt/airflow/dags/hello_dag.py               758  0.03s             1           0  0.17s           2025-12-24T15:37:16
+================================================================================
+[2025-12-24T15:38:17.329+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.09s           2025-12-24T15:38:14
+/opt/airflow/dags/spark_to_elastic_dag.py    776  0.01s             0           1  0.08s           2025-12-24T15:37:46
+/opt/airflow/dags/hello_dag.py               773  0.02s             1           0  0.16s           2025-12-24T15:37:47
+================================================================================
+[2025-12-24T15:38:47.790+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:38:44
+/opt/airflow/dags/spark_to_elastic_dag.py    791  0.00s             0           1  0.08s           2025-12-24T15:38:17
+/opt/airflow/dags/hello_dag.py               788  0.02s             1           0  0.13s           2025-12-24T15:38:17
+================================================================================
+[2025-12-24T15:39:18.248+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.11s           2025-12-24T15:39:15
+/opt/airflow/dags/spark_to_elastic_dag.py    806  0.01s             0           1  0.07s           2025-12-24T15:38:47
+/opt/airflow/dags/hello_dag.py               803  0.02s             1           0  0.12s           2025-12-24T15:38:47
+================================================================================
+[2025-12-24T15:39:48.713+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.09s           2025-12-24T15:39:45
+/opt/airflow/dags/spark_to_elastic_dag.py    823  0.01s             0           1  0.08s           2025-12-24T15:39:18
+/opt/airflow/dags/hello_dag.py                                      1           0  0.38s           2025-12-24T15:39:43
+================================================================================
+[2025-12-24T15:40:19.144+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.12s           2025-12-24T15:40:16
+/opt/airflow/dags/spark_to_elastic_dag.py    844  0.01s             0           1  0.11s           2025-12-24T15:39:48
+/opt/airflow/dags/hello_dag.py                                      1           0  0.16s           2025-12-24T15:40:14
+================================================================================
+[2025-12-24T15:40:27.220+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:40:27.319+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T15:40:49.620+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:40:46
+/opt/airflow/dags/spark_to_elastic_dag.py    862  0.01s             0           1  0.07s           2025-12-24T15:40:19
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T15:40:44
+================================================================================
+[2025-12-24T15:41:20.053+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.07s           2025-12-24T15:41:17
+/opt/airflow/dags/spark_to_elastic_dag.py    877  0.01s             0           1  0.08s           2025-12-24T15:40:49
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T15:41:15
+================================================================================
+[2025-12-24T15:41:50.447+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.09s           2025-12-24T15:41:47
+/opt/airflow/dags/spark_to_elastic_dag.py    895  0.01s             0           1  0.09s           2025-12-24T15:41:20
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T15:41:45
+================================================================================
+[2025-12-24T15:42:20.946+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:42:17
+/opt/airflow/dags/spark_to_elastic_dag.py    910  0.01s             0           1  0.12s           2025-12-24T15:41:50
+/opt/airflow/dags/hello_dag.py                                      1           0  0.18s           2025-12-24T15:42:16
+================================================================================
+[2025-12-24T15:42:51.548+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.09s           2025-12-24T15:42:48
+/opt/airflow/dags/spark_to_elastic_dag.py    925  0.01s             0           1  0.08s           2025-12-24T15:42:21
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:42:46
+================================================================================
+[2025-12-24T15:43:21.968+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.08s           2025-12-24T15:43:18
+/opt/airflow/dags/spark_to_elastic_dag.py    940  0.01s             0           1  0.09s           2025-12-24T15:42:51
+/opt/airflow/dags/hello_dag.py                                      1           0  0.16s           2025-12-24T15:43:17
+================================================================================
+[2025-12-24T15:43:52.479+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.57s           2025-12-24T15:43:48
+/opt/airflow/dags/spark_to_elastic_dag.py    956  0.01s             0           1  0.09s           2025-12-24T15:43:22
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:43:47
+================================================================================
+[2025-12-24T15:44:22.952+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.54s           2025-12-24T15:44:20
+/opt/airflow/dags/spark_to_elastic_dag.py    972  0.01s             0           1  0.08s           2025-12-24T15:43:52
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:44:17
+================================================================================
+[2025-12-24T15:44:53.408+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.35s           2025-12-24T15:44:51
+/opt/airflow/dags/spark_to_elastic_dag.py    988  0.01s             0           1  0.07s           2025-12-24T15:44:23
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T15:44:48
+================================================================================
+[2025-12-24T15:45:23.751+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_to_elastic_dag.py   1010  0.01s             0           1  0.09s           2025-12-24T15:44:53
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:45:18
+/opt/airflow/dags/lastfm_top_tracks.py                              1           0  0.56s           2025-12-24T15:45:19
+================================================================================
+[2025-12-24T15:45:27.794+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:45:27.869+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T15:45:53.773+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.56s           2025-12-24T15:45:38
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.08s           2025-12-24T15:45:23
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T15:45:48
+================================================================================
+[2025-12-24T15:46:24.387+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.50s           2025-12-24T15:46:09
+/opt/airflow/dags/spark_to_elastic_dag.py   1042  0.00s             0           1  0.10s           2025-12-24T15:45:54
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T15:46:19
+================================================================================
+[2025-12-24T15:46:54.969+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.43s           2025-12-24T15:46:40
+/opt/airflow/dags/spark_to_elastic_dag.py   1058  0.00s             0           1  0.07s           2025-12-24T15:46:24
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:46:49
+================================================================================
+[2025-12-24T15:47:25.463+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.50s           2025-12-24T15:47:10
+/opt/airflow/dags/spark_to_elastic_dag.py   1074  0.01s             0           1  0.07s           2025-12-24T15:46:55
+/opt/airflow/dags/hello_dag.py                                      1           0  0.11s           2025-12-24T15:47:20
+================================================================================
+[2025-12-24T15:47:56.022+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.30s           2025-12-24T15:47:41
+/opt/airflow/dags/spark_to_elastic_dag.py   1090  0.00s             0           1  0.07s           2025-12-24T15:47:25
+/opt/airflow/dags/hello_dag.py                                      1           0  0.11s           2025-12-24T15:47:51
+================================================================================
+[2025-12-24T15:48:26.503+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.46s           2025-12-24T15:48:11
+/opt/airflow/dags/spark_to_elastic_dag.py   1106  0.01s             0           1  0.06s           2025-12-24T15:47:56
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:48:21
+================================================================================
+[2025-12-24T15:48:57.107+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.42s           2025-12-24T15:48:42
+/opt/airflow/dags/spark_to_elastic_dag.py   1122  0.00s             0           1  0.10s           2025-12-24T15:48:26
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:48:52
+================================================================================
+[2025-12-24T15:49:27.644+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.42s           2025-12-24T15:49:12
+/opt/airflow/dags/spark_to_elastic_dag.py   1138  0.00s             0           1  0.08s           2025-12-24T15:48:57
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T15:49:22
+================================================================================
+[2025-12-24T15:49:58.132+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.42s           2025-12-24T15:49:43
+/opt/airflow/dags/spark_to_elastic_dag.py   1154  0.01s             0           1  0.07s           2025-12-24T15:49:27
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:49:53
+================================================================================
+[2025-12-24T15:50:28.520+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:50:28.554+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T15:50:28.582+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.45s           2025-12-24T15:50:13
+/opt/airflow/dags/spark_to_elastic_dag.py   1170  0.01s             0           1  0.08s           2025-12-24T15:49:58
+/opt/airflow/dags/hello_dag.py                                      1           0  0.11s           2025-12-24T15:50:23
+================================================================================
+[2025-12-24T15:50:58.882+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.41s           2025-12-24T15:50:45
+/opt/airflow/dags/spark_to_elastic_dag.py   1186  0.01s             0           1  0.07s           2025-12-24T15:50:28
+/opt/airflow/dags/hello_dag.py                                      1           0  0.16s           2025-12-24T15:50:53
+================================================================================
+[2025-12-24T15:51:29.325+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.51s           2025-12-24T15:51:16
+/opt/airflow/dags/spark_to_elastic_dag.py   1202  0.00s             0           1  0.07s           2025-12-24T15:50:58
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:51:24
+================================================================================
+[2025-12-24T15:51:59.925+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.44s           2025-12-24T15:51:47
+/opt/airflow/dags/spark_to_elastic_dag.py   1218  0.00s             0           1  0.10s           2025-12-24T15:51:29
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:51:54
+================================================================================
+[2025-12-24T15:52:30.446+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.42s           2025-12-24T15:52:17
+/opt/airflow/dags/spark_to_elastic_dag.py   1234  0.01s             0           1  0.07s           2025-12-24T15:51:59
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:52:25
+================================================================================
+[2025-12-24T15:53:00.973+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.41s           2025-12-24T15:52:48
+/opt/airflow/dags/spark_to_elastic_dag.py   1250  0.00s             0           1  0.10s           2025-12-24T15:52:30
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:52:56
+================================================================================
+[2025-12-24T15:53:31.474+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.43s           2025-12-24T15:53:18
+/opt/airflow/dags/spark_to_elastic_dag.py   1266  0.01s             0           1  0.06s           2025-12-24T15:53:01
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:53:26
+================================================================================
+[2025-12-24T15:54:01.918+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.44s           2025-12-24T15:53:49
+/opt/airflow/dags/spark_to_elastic_dag.py   1282  0.01s             0           1  0.07s           2025-12-24T15:53:31
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:53:56
+================================================================================
+[2025-12-24T15:54:32.382+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.49s           2025-12-24T15:54:19
+/opt/airflow/dags/spark_to_elastic_dag.py   1298  0.01s             0           1  0.09s           2025-12-24T15:54:01
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:54:27
+================================================================================
+[2025-12-24T15:55:02.781+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.49s           2025-12-24T15:54:51
+/opt/airflow/dags/spark_to_elastic_dag.py   1314  0.01s             0           1  0.07s           2025-12-24T15:54:32
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:54:57
+================================================================================
+[2025-12-24T15:55:29.087+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T15:55:29.132+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T15:55:33.215+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.50s           2025-12-24T15:55:22
+/opt/airflow/dags/spark_to_elastic_dag.py   1330  0.00s             0           1  0.07s           2025-12-24T15:55:02
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T15:55:28
+================================================================================
+[2025-12-24T15:56:03.619+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.71s           2025-12-24T15:55:54
+/opt/airflow/dags/spark_to_elastic_dag.py   1346  0.01s             0           1  0.06s           2025-12-24T15:55:33
+/opt/airflow/dags/hello_dag.py                                      1           0  0.42s           2025-12-24T15:55:58
+================================================================================
+[2025-12-24T15:56:34.124+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.51s           2025-12-24T15:56:25
+/opt/airflow/dags/spark_to_elastic_dag.py   1362  0.00s             0           1  0.12s           2025-12-24T15:56:03
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:56:29
+================================================================================
+[2025-12-24T15:57:04.552+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.50s           2025-12-24T15:56:56
+/opt/airflow/dags/spark_to_elastic_dag.py   1378  0.00s             0           1  0.08s           2025-12-24T15:56:34
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T15:56:59
+================================================================================
+[2025-12-24T15:57:35.059+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.42s           2025-12-24T15:57:28
+/opt/airflow/dags/spark_to_elastic_dag.py   1394  0.01s             0           1  0.07s           2025-12-24T15:57:04
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:57:30
+================================================================================
+[2025-12-24T15:58:05.549+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.55s           2025-12-24T15:57:58
+/opt/airflow/dags/spark_to_elastic_dag.py   1410  0.01s             0           1  0.17s           2025-12-24T15:57:35
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T15:58:00
+================================================================================
+[2025-12-24T15:58:35.947+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.50s           2025-12-24T15:58:30
+/opt/airflow/dags/spark_to_elastic_dag.py   1426  0.01s             0           1  0.07s           2025-12-24T15:58:05
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T15:58:30
+================================================================================
+[2025-12-24T15:59:06.426+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.48s           2025-12-24T15:59:01
+/opt/airflow/dags/spark_to_elastic_dag.py   1442  0.01s             0           1  0.07s           2025-12-24T15:58:36
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T15:59:01
+================================================================================
+[2025-12-24T15:59:36.905+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.45s           2025-12-24T15:59:32
+/opt/airflow/dags/spark_to_elastic_dag.py   1458  0.01s             0           1  0.06s           2025-12-24T15:59:06
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T15:59:31
+================================================================================
+[2025-12-24T16:00:07.469+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.49s           2025-12-24T16:00:02
+/opt/airflow/dags/spark_to_elastic_dag.py   1474  0.01s             0           1  0.11s           2025-12-24T15:59:37
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T16:00:02
+================================================================================
+[2025-12-24T16:00:29.667+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:00:29.710+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T16:00:37.553+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.72s           2025-12-24T16:00:33
+/opt/airflow/dags/spark_to_elastic_dag.py   1490  0.01s             0           1  0.06s           2025-12-24T16:00:07
+/opt/airflow/dags/hello_dag.py                                      1           0  0.20s           2025-12-24T16:00:32
+================================================================================
+[2025-12-24T16:01:08.156+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.46s           2025-12-24T16:01:04
+/opt/airflow/dags/spark_to_elastic_dag.py   1506  0.01s             0           1  0.11s           2025-12-24T16:00:37
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T16:01:04
+================================================================================
+[2025-12-24T16:01:38.744+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.64s           2025-12-24T16:01:35
+/opt/airflow/dags/spark_to_elastic_dag.py   1522  0.01s             0           1  0.07s           2025-12-24T16:01:08
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T16:01:34
+================================================================================
+[2025-12-24T16:02:09.296+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.44s           2025-12-24T16:02:05
+/opt/airflow/dags/spark_to_elastic_dag.py   1538  0.00s             0           1  0.12s           2025-12-24T16:01:38
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T16:02:05
+================================================================================
+[2025-12-24T16:02:39.807+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.48s           2025-12-24T16:02:36
+/opt/airflow/dags/spark_to_elastic_dag.py   1554  0.01s             0           1  0.06s           2025-12-24T16:02:09
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T16:02:35
+================================================================================
+[2025-12-24T16:16:20.379+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T16:16:20.381+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T16:16:20.381+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T16:16:20.382+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:16:20.446+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T16:16:20.724+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py               171  0.07s             0           0
+/opt/airflow/dags/lastfm_top_tracks.py       168  0.10s             0           0
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           0
+================================================================================
+[2025-12-24T16:16:51.200+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  1.20s           2025-12-24T16:16:21
+/opt/airflow/dags/spark_to_elastic_dag.py    187  0.01s             0           1  0.15s           2025-12-24T16:16:21
+/opt/airflow/dags/hello_dag.py               184  0.02s             1           0  0.34s           2025-12-24T16:16:20
+================================================================================
+[2025-12-24T16:17:21.797+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.49s           2025-12-24T16:16:52
+/opt/airflow/dags/spark_to_elastic_dag.py    203  0.01s             0           1  0.09s           2025-12-24T16:16:51
+/opt/airflow/dags/hello_dag.py               200  0.02s             1           0  0.18s           2025-12-24T16:16:51
+================================================================================
+[2025-12-24T16:17:52.246+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.55s           2025-12-24T16:17:23
+/opt/airflow/dags/spark_to_elastic_dag.py    219  0.01s             0           1  0.07s           2025-12-24T16:17:21
+/opt/airflow/dags/hello_dag.py               216  0.02s             1           0  0.14s           2025-12-24T16:17:21
+================================================================================
+[2025-12-24T16:18:22.605+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  1.76s           2025-12-24T16:17:56
+/opt/airflow/dags/spark_to_elastic_dag.py    235  0.01s             0           1  0.09s           2025-12-24T16:17:52
+/opt/airflow/dags/hello_dag.py               232  0.03s             1           0  0.17s           2025-12-24T16:17:52
+================================================================================
+[2025-12-24T16:18:52.650+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.54s           2025-12-24T16:18:27
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.11s           2025-12-24T16:18:22
+/opt/airflow/dags/hello_dag.py                                      1           0  0.19s           2025-12-24T16:18:22
+================================================================================
+[2025-12-24T16:19:22.982+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.38s           2025-12-24T16:18:58
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.07s           2025-12-24T16:18:53
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T16:18:53
+================================================================================
+[2025-12-24T16:19:53.146+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.33s           2025-12-24T16:19:29
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.06s           2025-12-24T16:19:23
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T16:19:23
+================================================================================
+[2025-12-24T16:20:23.666+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.30s           2025-12-24T16:19:59
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.11s           2025-12-24T16:19:54
+/opt/airflow/dags/hello_dag.py                                      1           0  0.17s           2025-12-24T16:19:54
+================================================================================
+[2025-12-24T16:20:54.152+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.44s           2025-12-24T16:20:30
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.07s           2025-12-24T16:20:24
+/opt/airflow/dags/hello_dag.py                                      1           0  0.13s           2025-12-24T16:20:24
+================================================================================
+[2025-12-24T16:21:20.590+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:21:20.635+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T16:21:24.696+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.43s           2025-12-24T16:21:00
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.06s           2025-12-24T16:20:55
+/opt/airflow/dags/hello_dag.py                                      1           0  0.11s           2025-12-24T16:20:55
+================================================================================
+[2025-12-24T16:21:55.174+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.31s           2025-12-24T16:21:31
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.06s           2025-12-24T16:21:25
+/opt/airflow/dags/hello_dag.py                                      1           0  0.11s           2025-12-24T16:21:25
+================================================================================
+[2025-12-24T16:22:25.706+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.32s           2025-12-24T16:22:01
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.07s           2025-12-24T16:21:56
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T16:21:56
+================================================================================
+[2025-12-24T16:22:56.147+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.31s           2025-12-24T16:22:32
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.07s           2025-12-24T16:22:26
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T16:22:26
+================================================================================
+[2025-12-24T16:23:26.591+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.33s           2025-12-24T16:23:02
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.07s           2025-12-24T16:22:57
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T16:22:57
+================================================================================
+[2025-12-24T16:23:40.865+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T16:24:42.873+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T16:24:42.879+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T16:24:42.881+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T16:24:42.884+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:24:43.228+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2025-12-24T16:24:43.923+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py               170  0.23s             0           0
+/opt/airflow/dags/lastfm_top_tracks.py       167  0.34s             0           0
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           0
+================================================================================
+[2025-12-24T16:25:14.057+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  2.04s           2025-12-24T16:24:45
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.29s           2025-12-24T16:24:44
+/opt/airflow/dags/hello_dag.py                                      1           0  0.85s           2025-12-24T16:24:44
+================================================================================
+[2025-12-24T16:25:44.514+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.43s           2025-12-24T16:25:16
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.07s           2025-12-24T16:25:15
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T16:25:15
+================================================================================
+[2025-12-24T16:26:15.029+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.52s           2025-12-24T16:25:47
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.06s           2025-12-24T16:25:45
+/opt/airflow/dags/hello_dag.py                                      1           0  0.16s           2025-12-24T16:25:45
+================================================================================
+[2025-12-24T16:26:45.559+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.39s           2025-12-24T16:26:18
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.07s           2025-12-24T16:26:16
+/opt/airflow/dags/hello_dag.py                                      1           0  0.12s           2025-12-24T16:26:16
+================================================================================
+[2025-12-24T16:27:16.094+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.34s           2025-12-24T16:26:49
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.08s           2025-12-24T16:26:46
+/opt/airflow/dags/hello_dag.py                                      1           0  0.15s           2025-12-24T16:26:46
+================================================================================
+[2025-12-24T16:27:46.654+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.37s           2025-12-24T16:27:19
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.12s           2025-12-24T16:27:17
+/opt/airflow/dags/hello_dag.py                                      1           0  0.24s           2025-12-24T16:27:17
+================================================================================
+[2025-12-24T16:28:17.214+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                              0           1  0.47s           2025-12-24T16:27:50
+/opt/airflow/dags/spark_to_elastic_dag.py                           0           1  0.08s           2025-12-24T16:27:47
+/opt/airflow/dags/hello_dag.py                                      1           0  0.14s           2025-12-24T16:27:47
+================================================================================
+[2025-12-24T16:28:27.490+0000] {manager.py:1137} WARNING - Skipping processing of missing file: /opt/airflow/dags/spark_to_elastic_dag.py
+[2025-12-24T16:28:47.657+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                           0           1  0.56s           2025-12-24T16:28:20
+/opt/airflow/dags/hello_dag.py                                   1           0  0.16s           2025-12-24T16:28:18
+================================================================================
+[2025-12-24T16:29:17.708+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.19s           2025-12-24T16:28:48
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.96s           2025-12-24T16:29:02
+================================================================================
+[2025-12-24T16:29:43.624+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:29:43.664+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:29:47.726+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.59s           2025-12-24T16:29:20
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.04s           2025-12-24T16:29:33
+================================================================================
+[2025-12-24T16:29:56.683+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T16:30:27.603+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T16:30:27.604+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T16:30:27.605+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T16:30:27.606+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:30:27.658+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:30:27.842+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py            170  0.07s             0           0
+/opt/airflow/dags/lastfm_top_tracks.py    167  0.10s             0           0
+================================================================================
+[2025-12-24T16:30:58.225+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            178  0.01s             1           0  0.28s           2025-12-24T16:30:28
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.14s           2025-12-24T16:30:28
+================================================================================
+[2025-12-24T16:31:28.436+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            189  0.01s             1           0  0.16s           2025-12-24T16:30:58
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.85s           2025-12-24T16:31:00
+================================================================================
+[2025-12-24T16:31:58.878+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            200  0.00s             1           0  0.14s           2025-12-24T16:31:28
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.47s           2025-12-24T16:31:30
+================================================================================
+[2025-12-24T16:32:29.311+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            211  0.00s             1           0  0.12s           2025-12-24T16:31:58
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.44s           2025-12-24T16:32:01
+================================================================================
+[2025-12-24T16:32:59.819+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            222  0.01s             1           0  0.15s           2025-12-24T16:32:29
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T16:32:31
+================================================================================
+[2025-12-24T16:33:30.248+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            233  0.01s             1           0  0.13s           2025-12-24T16:32:59
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.46s           2025-12-24T16:33:03
+================================================================================
+[2025-12-24T16:34:00.735+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            244  0.00s             1           0  0.14s           2025-12-24T16:33:30
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.46s           2025-12-24T16:33:33
+================================================================================
+[2025-12-24T16:34:31.123+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            255  0.01s             1           0  0.11s           2025-12-24T16:34:00
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.47s           2025-12-24T16:34:05
+================================================================================
+[2025-12-24T16:35:01.527+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            266  0.01s             1           0  0.18s           2025-12-24T16:34:31
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.57s           2025-12-24T16:34:35
+================================================================================
+[2025-12-24T16:35:27.859+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:35:27.893+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:35:31.937+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            277  0.01s             1           0  0.18s           2025-12-24T16:35:01
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.53s           2025-12-24T16:35:07
+================================================================================
+[2025-12-24T16:36:02.285+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            288  0.01s             1           0  0.12s           2025-12-24T16:35:32
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.69s           2025-12-24T16:35:38
+================================================================================
+[2025-12-24T16:36:32.635+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            299  0.01s             1           0  0.20s           2025-12-24T16:36:02
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.14s           2025-12-24T16:36:10
+================================================================================
+[2025-12-24T16:37:02.900+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            310  0.01s             1           0  0.19s           2025-12-24T16:36:32
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.88s           2025-12-24T16:36:41
+================================================================================
+[2025-12-24T16:37:33.299+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            321  0.00s             1           0  0.17s           2025-12-24T16:37:03
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.61s           2025-12-24T16:37:12
+================================================================================
+[2025-12-24T16:38:03.780+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            332  0.00s             1           0  0.15s           2025-12-24T16:37:33
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T16:37:43
+================================================================================
+[2025-12-24T16:38:34.215+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            343  0.00s             1           0  0.12s           2025-12-24T16:38:03
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.50s           2025-12-24T16:38:14
+================================================================================
+[2025-12-24T16:39:04.594+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            354  0.00s             1           0  0.12s           2025-12-24T16:38:34
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.47s           2025-12-24T16:38:45
+================================================================================
+[2025-12-24T16:39:35.071+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            365  0.00s             1           0  0.15s           2025-12-24T16:39:04
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.45s           2025-12-24T16:39:16
+================================================================================
+[2025-12-24T16:40:05.494+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            376  0.01s             1           0  0.12s           2025-12-24T16:39:35
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.50s           2025-12-24T16:39:47
+================================================================================
+[2025-12-24T16:40:27.918+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:40:27.961+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:40:36.081+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            387  0.01s             1           0  0.12s           2025-12-24T16:40:05
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T16:40:18
+================================================================================
+[2025-12-24T16:41:06.507+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            398  0.01s             1           0  0.12s           2025-12-24T16:40:36
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.50s           2025-12-24T16:40:48
+================================================================================
+[2025-12-24T16:41:36.995+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            409  0.00s             1           0  0.17s           2025-12-24T16:41:06
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.56s           2025-12-24T16:41:20
+================================================================================
+[2025-12-24T16:42:07.387+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            420  0.00s             1           0  0.12s           2025-12-24T16:41:37
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T16:41:51
+================================================================================
+[2025-12-24T16:42:37.787+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            431  0.00s             1           0  0.12s           2025-12-24T16:42:07
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.50s           2025-12-24T16:42:22
+================================================================================
+[2025-12-24T16:43:08.226+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            442  0.00s             1           0  0.12s           2025-12-24T16:42:37
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T16:42:53
+================================================================================
+[2025-12-24T16:43:38.687+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            453  0.01s             1           0  0.11s           2025-12-24T16:43:08
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T16:43:24
+================================================================================
+[2025-12-24T16:44:09.099+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            464  0.00s             1           0  0.12s           2025-12-24T16:43:38
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T16:43:55
+================================================================================
+[2025-12-24T16:44:39.517+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            475  0.00s             1           0  0.11s           2025-12-24T16:44:09
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.54s           2025-12-24T16:44:25
+================================================================================
+[2025-12-24T16:45:09.582+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T16:44:39
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.80s           2025-12-24T16:44:57
+================================================================================
+[2025-12-24T16:45:28.086+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:45:28.136+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:45:40.172+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            507  0.01s             1           0  0.22s           2025-12-24T16:45:10
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.80s           2025-12-24T16:45:35
+================================================================================
+[2025-12-24T16:46:10.585+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            521  0.01s             1           0  0.16s           2025-12-24T16:45:40
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.64s           2025-12-24T16:46:06
+================================================================================
+[2025-12-24T16:46:40.638+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.16s           2025-12-24T16:46:10
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.76s           2025-12-24T16:46:37
+================================================================================
+[2025-12-24T16:47:10.861+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.20s           2025-12-24T16:46:41
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.52s           2025-12-24T16:47:08
+================================================================================
+[2025-12-24T16:47:40.975+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.16s           2025-12-24T16:47:11
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T16:47:39
+================================================================================
+[2025-12-24T16:48:11.337+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T16:47:42
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T16:48:10
+================================================================================
+[2025-12-24T16:48:41.774+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T16:48:12
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.51s           2025-12-24T16:48:41
+================================================================================
+[2025-12-24T16:49:12.096+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T16:48:42
+/opt/airflow/dags/lastfm_top_tracks.py    587  0.00s             1           0  0.51s           2025-12-24T16:48:41
+================================================================================
+[2025-12-24T16:49:42.516+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T16:49:13
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.46s           2025-12-24T16:49:12
+================================================================================
+[2025-12-24T16:50:12.898+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T16:49:43
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.47s           2025-12-24T16:49:43
+================================================================================
+[2025-12-24T16:50:28.175+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:50:28.205+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:50:43.349+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T16:50:14
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.52s           2025-12-24T16:50:14
+================================================================================
+[2025-12-24T16:51:13.423+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/lastfm_top_tracks.py                           0           1  0.07s           2025-12-24T16:51:13
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T16:50:44
+================================================================================
+[2025-12-24T16:51:43.783+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T16:51:15
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.52s           2025-12-24T16:51:18
+================================================================================
+[2025-12-24T16:52:13.911+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.15s           2025-12-24T16:51:45
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.81s           2025-12-24T16:51:49
+================================================================================
+[2025-12-24T16:52:44.009+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T16:52:16
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.57s           2025-12-24T16:52:20
+================================================================================
+[2025-12-24T16:53:14.413+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T16:52:46
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.52s           2025-12-24T16:52:52
+================================================================================
+[2025-12-24T16:53:45.311+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.36s           2025-12-24T16:53:17
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.63s           2025-12-24T16:53:23
+================================================================================
+[2025-12-24T16:54:15.764+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.15s           2025-12-24T16:53:48
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.54s           2025-12-24T16:53:53
+================================================================================
+[2025-12-24T16:54:46.354+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.17s           2025-12-24T16:54:18
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.39s           2025-12-24T16:54:25
+================================================================================
+[2025-12-24T16:55:16.938+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.16s           2025-12-24T16:54:49
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.36s           2025-12-24T16:54:56
+================================================================================
+[2025-12-24T16:55:28.208+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:55:28.231+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:55:47.387+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.17s           2025-12-24T16:55:20
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.68s           2025-12-24T16:55:27
+================================================================================
+[2025-12-24T16:56:17.862+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.19s           2025-12-24T16:55:50
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T16:55:59
+================================================================================
+[2025-12-24T16:56:48.305+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T16:56:21
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.55s           2025-12-24T16:56:29
+================================================================================
+[2025-12-24T16:57:18.707+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T16:56:51
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.47s           2025-12-24T16:57:00
+================================================================================
+[2025-12-24T16:57:44.670+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-24T16:58:01.803+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-12-24T16:58:01.803+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-12-24T16:58:01.804+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-24T16:58:01.804+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T16:58:01.843+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T16:58:01.989+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_dag.py            170  0.06s             0           0
+/opt/airflow/dags/lastfm_top_tracks.py    167  0.09s             0           0
+================================================================================
+[2025-12-24T16:58:32.410+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            178  0.01s             1           0  0.22s           2025-12-24T16:58:02
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.70s           2025-12-24T16:58:03
+================================================================================
+[2025-12-24T16:59:02.833+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            192  0.01s             1           0  0.13s           2025-12-24T16:58:32
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T16:58:34
+================================================================================
+[2025-12-24T16:59:33.274+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            203  0.01s             1           0  0.14s           2025-12-24T16:59:02
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.56s           2025-12-24T16:59:05
+================================================================================
+[2025-12-24T17:00:03.460+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.33s           2025-12-24T16:59:33
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.44s           2025-12-24T16:59:37
+================================================================================
+[2025-12-24T17:00:34.006+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T17:00:04
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.55s           2025-12-24T17:00:07
+================================================================================
+[2025-12-24T17:01:04.411+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:00:34
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.67s           2025-12-24T17:00:39
+================================================================================
+[2025-12-24T17:01:35.181+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            247  0.01s             1           0  0.13s           2025-12-24T17:01:05
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  1.03s           2025-12-24T17:01:10
+================================================================================
+[2025-12-24T17:02:05.593+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            258  0.01s             1           0  0.12s           2025-12-24T17:01:35
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.52s           2025-12-24T17:01:41
+================================================================================
+[2025-12-24T17:02:35.980+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py            269  0.01s             1           0  0.23s           2025-12-24T17:02:05
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.74s           2025-12-24T17:02:12
+================================================================================
+[2025-12-24T17:03:01.910+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T17:03:01.956+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T17:03:06.004+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.21s           2025-12-24T17:02:36
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.68s           2025-12-24T17:02:43
+================================================================================
+[2025-12-24T17:03:36.288+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.17s           2025-12-24T17:03:06
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.52s           2025-12-24T17:03:15
+================================================================================
+[2025-12-24T17:04:06.329+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:03:37
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.54s           2025-12-24T17:03:45
+================================================================================
+[2025-12-24T17:04:36.758+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.15s           2025-12-24T17:04:07
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.50s           2025-12-24T17:04:16
+================================================================================
+[2025-12-24T17:05:07.221+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:04:37
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.46s           2025-12-24T17:04:47
+================================================================================
+[2025-12-24T17:05:37.663+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:05:08
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.47s           2025-12-24T17:05:18
+================================================================================
+[2025-12-24T17:06:08.129+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:05:38
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T17:05:49
+================================================================================
+[2025-12-24T17:06:38.537+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:06:09
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.46s           2025-12-24T17:06:20
+================================================================================
+[2025-12-24T17:07:08.615+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:06:39
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.65s           2025-12-24T17:06:51
+================================================================================
+[2025-12-24T17:07:38.867+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:07:10
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.52s           2025-12-24T17:07:22
+================================================================================
+[2025-12-24T17:08:02.311+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T17:08:02.338+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T17:08:09.421+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:07:40
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.69s           2025-12-24T17:07:54
+================================================================================
+[2025-12-24T17:08:39.592+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:08:10
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T17:08:25
+================================================================================
+[2025-12-24T17:09:09.705+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.20s           2025-12-24T17:08:41
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T17:08:56
+================================================================================
+[2025-12-24T17:09:40.091+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.11s           2025-12-24T17:09:11
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T17:09:27
+================================================================================
+[2025-12-24T17:10:10.516+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.16s           2025-12-24T17:09:42
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T17:09:57
+================================================================================
+[2025-12-24T17:10:40.905+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:10:12
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.51s           2025-12-24T17:10:29
+================================================================================
+[2025-12-24T17:11:11.324+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T17:10:43
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.50s           2025-12-24T17:10:59
+================================================================================
+[2025-12-24T17:11:41.823+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.21s           2025-12-24T17:11:13
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.46s           2025-12-24T17:11:31
+================================================================================
+[2025-12-24T17:12:11.860+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:11:43
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.71s           2025-12-24T17:12:01
+================================================================================
+[2025-12-24T17:12:42.056+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:12:14
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T17:12:32
+================================================================================
+[2025-12-24T17:13:02.855+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-12-24T17:13:02.902+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-24T17:13:12.094+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.14s           2025-12-24T17:12:44
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.48s           2025-12-24T17:13:03
+================================================================================
+[2025-12-24T17:13:42.482+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.12s           2025-12-24T17:13:15
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.54s           2025-12-24T17:13:34
+================================================================================
+[2025-12-24T17:14:12.862+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.11s           2025-12-24T17:13:45
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.49s           2025-12-24T17:14:06
+================================================================================
+[2025-12-24T17:14:43.312+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:14:16
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.50s           2025-12-24T17:14:36
+================================================================================
+[2025-12-24T17:15:13.721+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:14:46
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.60s           2025-12-24T17:15:08
+================================================================================
+[2025-12-24T17:15:44.110+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:15:16
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.64s           2025-12-24T17:15:39
+================================================================================
+[2025-12-24T17:16:14.523+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.15s           2025-12-24T17:15:47
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.47s           2025-12-24T17:16:10
+================================================================================
+[2025-12-24T17:16:44.542+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_dag.py                                   1           0  0.13s           2025-12-24T17:16:17
+/opt/airflow/dags/lastfm_top_tracks.py                           1           0  0.62s           2025-12-24T17:16:41
+================================================================================
+[2025-12-24T17:16:52.960+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
