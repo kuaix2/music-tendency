@@ -10,7 +10,9 @@ services:
       POSTGRES_DB: airflow
 
   airflow-webserver:
-    image: apache/airflow:2.7.3
+    build:
+      context: .
+      dockerfile: Dockerfile
     depends_on:
       - postgres
     environment:
@@ -27,7 +29,9 @@ services:
     command: ["webserver"]
 
   airflow-scheduler:
-    image: apache/airflow:2.7.3
+    build:
+      context: .
+      dockerfile: Dockerfile
     depends_on:
       - airflow-webserver
     environment:
@@ -37,12 +41,12 @@ services:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./spark/jobs:/opt/spark/jobs
-      - C:/Users/Shu-han/bigdata-stack/data:/opt/airflow/data  # <-- corrigé ici
+      - C:/Users/Shu-han/bigdata-stack/data:/opt/airflow/data
     command: ["scheduler"]
 
+
   spark-master:
-    build:
-      context: ./spark
+    image: apache/spark:3.4.2
     command:
       ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master"]
     ports:
@@ -52,8 +56,7 @@ services:
       - ./spark/jobs:/opt/spark/jobs
 
   spark-worker:
-    build:
-      context: ./spark
+    image: apache/spark:3.4.2
     command:
       [
         "/opt/spark/bin/spark-class",
